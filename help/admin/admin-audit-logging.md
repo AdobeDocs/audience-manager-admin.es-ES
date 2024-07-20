@@ -8,19 +8,19 @@ exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
 # Registro de auditoría {#audit-logging}
 
-Uso [!UICONTROL  Audit Logging] como primer lugar al depurar problemas de los clientes.
+Use [!UICONTROL  Audit Logging] como primer lugar al depurar problemas de clientes.
 
 >[!NOTE]
 >
->El [!UICONTROL Audit Logging] La funcionalidad y la documentación de están actualmente en desarrollo y sujetas a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo).
+>La funcionalidad y documentación de [!UICONTROL Audit Logging] se encuentra actualmente en desarrollo y sujeta a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] (equipo [!DNL UI]).
 
-![Vista Registro de auditoría](assets/audit-logging-img.png)
+![Vista de registro de auditoría](assets/audit-logging-img.png)
 
 <!-- 
 

@@ -8,7 +8,7 @@ exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -20,27 +20,26 @@ Vea o edite los proveedores de datos de los contenedores.
 
 >[!NOTE]
 >
->De forma predeterminada, las empresas se crean con un contenedor. Puede crear más contenedores para una empresa en la interfaz de usuario, en **[!UICONTROL Tools > Tags]**.
+>De forma predeterminada, las empresas se crean con un contenedor. Puede crear más contenedores para una compañía en la interfaz de usuario, en **[!UICONTROL Tools > Tags]**.
 
-1. Clic **[!UICONTROL Companies]**, luego busque y haga clic en la empresa deseada para mostrar su [!UICONTROL Profile] página.
+1. Haga clic en **[!UICONTROL Companies]**, luego busque y haga clic en la empresa que desee para mostrar su página [!UICONTROL Profile].
 
-   Utilice el [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la empresa deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+   Utilice el cuadro [!UICONTROL Search] o los controles de paginación que aparecen en la parte inferior de la lista para encontrar la compañía que desee. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-1. Haga clic en **[!UICONTROL Containers]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Containers]**.
 
    ![](assets/containers.png)
 
 1. Haga clic en la fila de un contenedor para ver o editar los proveedores de datos de ese contenedor.
 
-   ![Resultado del paso](assets/containers_edit.png)
+   ![Resultado Del Paso](assets/containers_edit.png)
 
-1. Mover las fuentes de datos desde el **[!UICONTROL Available Data Sources]** y **[!UICONTROL Selected Data Sources for This Container]** Para crear listas, seleccione las fuentes de datos que desee y haga clic en las flechas derecha o izquierda según sea necesario.
+1. Para mover orígenes de datos de las listas **[!UICONTROL Available Data Sources]** y **[!UICONTROL Selected Data Sources for This Container]**, seleccione los orígenes de datos que desee y, a continuación, haga clic en las flechas derecha o izquierda según sea necesario.
 
-   También puede realizar esta tarea desde el [Proveedores de datos de terceros](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)página.
+   También puede realizar esta tarea desde la página [Proveedores de datos de terceros](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689).
 
-1. Clic **[!UICONTROL Save]** si ha realizado cambios.
+1. Haga clic en **[!UICONTROL Save]** si realizó cambios.
 
 >[!MORELIKETHIS]
 >
 >* [Sincronización de ID con Media Optimizer](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
-

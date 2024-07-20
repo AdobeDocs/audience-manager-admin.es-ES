@@ -8,7 +8,7 @@ exl-id: d501cfd1-64dd-448e-92c5-180c0081d3e5
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,17 @@ Siga estas instrucciones para generar un archivo de sincronización completo que
 
 >[!NOTE]
 >
->No es necesario ver un visitante en el sitio de un cliente seleccionado ni en el tráfico de su anuncio para que se pueda considerar &quot;activo&quot;. Pueden ser vistos por cualquiera [!DNL Audience Manager] cliente o socio para calificar como &quot;activo&quot;.
+>No es necesario ver un visitante en el sitio de un cliente seleccionado ni en el tráfico de su anuncio para que se pueda considerar &quot;activo&quot;. Cualquier cliente o socio de [!DNL Audience Manager] puede verlas para calificarlas como &quot;activas&quot;.
 
 Para filtrar solo por usuarios activos:
 
-1. Haga clic **[!UICONTROL Companies]**.
+1. Haga clic en **[!UICONTROL Companies]**.
 1. Seleccione la empresa con la que desea trabajar y haga clic en **[!UICONTROL Destinations]**.
-1. En el [!UICONTROL Batch Data] , establezca las siguientes opciones:
+1. En la sección [!UICONTROL Batch Data], defina las siguientes opciones:
 
-   * **[!UICONTROL Sync Type]**: Seleccionar **[!UICONTROL Customer]** o **[!UICONTROL Platform]**.
-   * **[!UICONTROL Sync Type Lookback Period]**: Este intervalo de tiempo define el intervalo del archivo de datos. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. Recuerde, este filtro se aplica solo a archivos de sincronización completos.
-   * **[!UICONTROL Full Sync Scheduled Run]**: determina la frecuencia con la que desea recibir este archivo. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**, o **[!UICONTROL Never]** (para deshabilitarla).
+   * **[!UICONTROL Sync Type]**: seleccione **[!UICONTROL Customer]** o **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type Lookback Period]**: este intervalo de tiempo define el intervalo del archivo de datos. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: seleccione **[!UICONTROL Never]**. Recuerde, este filtro se aplica solo a archivos de sincronización completos.
+   * **[!UICONTROL Full Sync Scheduled Run]**: esto determina la frecuencia con la que desea recibir este archivo. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** o **[!UICONTROL Never]** (para deshabilitar).
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.

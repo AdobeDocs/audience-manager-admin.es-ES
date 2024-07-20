@@ -7,14 +7,14 @@ uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 exl-id: ebd978ef-3825-4a96-94bd-5cdae269cf7c
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 6%
+source-wordcount: '222'
+ht-degree: 2%
 
 ---
 
 # Sincronización de ID con Media Optimizer {#id-syncing-with-media-optimizer}
 
-De forma predeterminada, todas las empresas sincronizan los datos con [!DNL Adobe Media Optimizer] ([!DNL AMO]). En el [!UICONTROL Admin UI], cada contenedor de compañía tiene una fuente de datos que administra este proceso. Esta fuente de datos es [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Haga clic en una fila de contenedor (debajo de la etiqueta [!UICONTROL Containers] para que una empresa seleccionada desactive esta sincronización predeterminada o para agregar y quitar otras fuentes de datos a [!DNL AMO] proceso de sincronización.
+De manera predeterminada, todas las empresas sincronizan los datos con [!DNL Adobe Media Optimizer] ([!DNL AMO]). En [!UICONTROL Admin UI], cada contenedor de compañía tiene un origen de datos que administra este proceso. Este origen de datos es [!UICONTROL Adobe AMO] ([!UICONTROL ID] 411). Haga clic en una fila de contenedor (en la ficha [!UICONTROL Containers]) de una empresa seleccionada para deshabilitar esta sincronización predeterminada o para agregar y quitar otras fuentes de datos al proceso de sincronización de [!DNL AMO].
 
 ![](assets/id-sync.png)
 
@@ -24,11 +24,10 @@ En la tabla siguiente se describe el estado de sincronización de un origen de d
 
 | Estado | Descripción |
 |------ | -------- |
-| Off | Eliminar todas las fuentes de datos de [!UICONTROL Selected Data Sources] para que este contenedor deshabilite la sincronización de ID con [!DNL AMO] |
-| Activado (independientemente de la versión del servicio de ID) | Una fuente de datos se sincroniza con [!DNL AMO] independientemente de la versión del servicio de ID cuando: <ul><li>La fuente de datos aparece en la [!UICONTROL Selected Data Sources] lista.</li><li>El [!DNL AMO] casilla de verificación *no es* seleccionados.</li></ul> |
-| Activado (independientemente de la versión del servicio de ID) | Una fuente de datos se sincronizará con [!DNL AMO] con la versión 2.0 del servicio de ID (o la buena) cuando: <ul><li>La fuente de datos aparece en la [!UICONTROL Selected Data Sources] lista.</li><li>El [!DNL AMO] casilla de verificación *es* seleccionados.</li></ul> |
+| Off | Quite todos los orígenes de datos de [!UICONTROL Selected Data Sources] para este contenedor con el fin de deshabilitar la sincronización de ID con [!DNL AMO] |
+| Activado (independientemente de la versión del servicio de ID) | Una fuente de datos se sincroniza con [!DNL AMO] independientemente de la versión del servicio de ID cuando: <ul><li>El origen de datos aparece en la lista [!UICONTROL Selected Data Sources].</li><li>La casilla de verificación [!DNL AMO] *no está* seleccionada.</li></ul> |
+| Activado (independientemente de la versión del servicio de ID) | Se sincronizará un origen de datos con [!DNL AMO] con la versión 2.0 (o posterior) del servicio de ID cuando: <ul><li>El origen de datos aparece en la lista [!UICONTROL Selected Data Sources].</li><li>La casilla de verificación [!DNL AMO] *está* seleccionada.</li></ul> |
 
 >[!MORELIKETHIS]
 >
 >* [Administrar contenedores](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)
-

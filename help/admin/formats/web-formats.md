@@ -7,16 +7,16 @@ uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
 source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
 # Macros de formato HTTP {#http-format-macros}
 
-Muestra las macros que puede utilizar para crear [!DNL HTTP] archivos de datos. [!DNL HTTP] envía datos en un [!DNL JSON] formato.
+Enumera las macros que puede utilizar para crear [!DNL HTTP] archivos de datos. [!DNL HTTP] envía datos en formato [!DNL JSON].
 
-Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.md) para obtener una lista y ejemplos de algunas combinaciones de macros utilizadas con frecuencia.
+Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples.md) para obtener una lista y ejemplos de algunas combinaciones de macros de uso común.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -30,12 +30,12 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> ID. de Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el ID que ha asignado a un usuario si su ID ya se ha sincronizado con un <span class="keyword"> Audience Manager </span> ID del dispositivo. </p> </td> 
+   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el identificador que ha asignado a un usuario si su identificador ya se ha sincronizado con un identificador de dispositivo del Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Marca de tiempo Unix UTC. AAM Una marca de tiempo interna, representa la hora en la que se notificó a los usuarios de que publicaran la fecha y hora en que se envió la notificación. <span class="wintitle"> S2S </span> destino a nuestros socios. </p> </td> 
+   <td colname="col3"> <p>Marca de tiempo Unix UTC. AAM Una marca de tiempo interna representa la hora en la que se notificó a los socios a los que se les notificó que publicaran el destino <span class="wintitle"> S2S </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -90,7 +90,7 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>El <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Región de DCS de Audience Manager </a> donde se originó la actividad.</p> </td> 
+   <td colname="col3"> <p>Región del DCS del Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> </a> en la que se originó la actividad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -107,7 +107,7 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>Especifique estos campos en una matriz como se muestra en este ejemplo: </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Ejemplos de macros de formato HTTP </a>. </p> </td> 
+     </ul> </p> <p>Especifique estos campos en una matriz como se muestra en este ejemplo: </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> ejemplos de macros de formato HTTP </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
@@ -134,7 +134,7 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>Especifique estos campos en una matriz como se muestra en este ejemplo: </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Ejemplos de macros de formato HTTP </a>. </p> </td> 
+     </ul> </p> <p>Especifique estos campos en una matriz como se muestra en este ejemplo: </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> ejemplos de macros de formato HTTP </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Una lista de <span class="keyword"> Audience Manager </span> ID de usuario. También puede devolver campos específicos que incluyan lo siguiente: </p> 
+   <td colname="col3"> <p>Una lista de <span class="keyword"> ID de usuario de Audience Manager </span>. También puede devolver campos específicos que incluyan lo siguiente: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -173,8 +173,9 @@ Consulte la [Ejemplos de macros de formato HTTP](../formats/web-format-examples.
      <li><code>user.regionIds</code></li> 
     </ul> <p>Especifique estos campos como se muestra en este ejemplo: </p> <p> 
      <codeblock>
-       AAM "_UUID": "&lt;user.aamuuid&gt;" "DataPartner_UUID": "&lt;user.dpuuid&gt;" 
-     </codeblock> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Ejemplos de macros de formato HTTP </a> para ver un ejemplo completo. </p> </td> 
+       AAM "_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> ejemplos de macros de formato HTTP </a> para ver un ejemplo completo. </p> </td> 
   </tr>
  </tbody>
 </table>

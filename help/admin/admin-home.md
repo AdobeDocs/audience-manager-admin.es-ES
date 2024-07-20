@@ -7,8 +7,8 @@ uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 75%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ La herramienta Audience Manager permite añadir y configurar compañías, servid
 
 >[!IMPORTANT]
 >
-> La audiencia de este repositorio de documentación son empleados internos del Adobe. Si es cliente Audience Manager de, vaya a la [información general sobre la guía del Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> La audiencia de este repositorio de documentación son empleados internos del Adobe. Si es cliente Audience Manager, vaya a la [descripción general de la guía para Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 

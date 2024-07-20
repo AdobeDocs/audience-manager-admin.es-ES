@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Informes {#reporting}
 
-Administre informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario del portal como [!DNL Tableau] usuario.
+Administre informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario del portal como usuario de [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 
@@ -22,4 +22,4 @@ Administre informes de Audience Manager creando nuevos informes o editando o eli
 
 Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-Utilice el [!UICONTROL Search] o los controles de paginación situados en la parte inferior de la lista para buscar el informe deseado.
+Utilice el cuadro [!UICONTROL Search] o los controles de paginación que aparecen en la parte inferior de la lista para encontrar el informe deseado.
