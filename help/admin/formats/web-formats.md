@@ -90,7 +90,7 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Región del DCS del Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> </a> en la que se originó la actividad.</p> </td> 
+   <td colname="col3"> <p>Región del DCS del Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=es"> </a> en la que se originó la actividad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
