@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > La audiencia de esta página son empleados internos de Adobe. Si es cliente de Audience Manager y solicita una asignación de fuente de datos de segundo nivel como se describe en esta página, póngase en contacto con el Servicio de atención al cliente o con el administrador de cuentas técnico.
-> > Tenga en cuenta que no es necesario para solicitar una asignación para las relaciones de uso compartido de datos existentes. La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID.
+> &#x200B;> Tenga en cuenta que no es necesario para solicitar una asignación para las relaciones de uso compartido de datos existentes. La asignación tampoco es obligatoria al incorporar datos en fuentes de datos de destino que pertenecen a su PID.
 
 Para evitar la incorporación accidental de archivos y datos en fuentes de datos de destino propiedad de otros socios, Audience Manager ha añadido un requisito de asignación entre el ID del socio (PID) y las fuentes de datos (DPID) propiedad de otros socios. Obtenga más información sobre PID y DPID en el [índice de Audience Manager ID](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 

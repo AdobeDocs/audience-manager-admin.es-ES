@@ -24,9 +24,9 @@ El entorno beta sirve para probar implementaciones de Audience Manager. Los camb
 | Servicio | URL/Nombre de host | Pasos para aprovisionar |
 |--- |--- |--- |
 | S3 | | Consulte [Aprovisionar bloques de Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | No se necesitan pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el entorno de Beta](admin-beta-environment.md#access-dcs-beta-environment). |
-| IU | https&amp;colon;//bank-beta.demdex.com | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
-| API | https&amp;colon;//api-beta.demdex.com/... | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
+| DCS | https&colon;//dcs-beta.demdex.net/... | No se necesitan pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el entorno de Beta](admin-beta-environment.md#access-dcs-beta-environment). |
+| IU | https&colon;//bank-beta.demdex.com | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
+| API | https&colon;//api-beta.demdex.com/... | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
 
 ## Aprovisionar bloques de Amazon S3 {#provision-s3-buckets}
 
