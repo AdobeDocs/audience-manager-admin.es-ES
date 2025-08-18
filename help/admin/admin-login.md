@@ -18,7 +18,7 @@ Inicie sesión en la herramienta de administración de Adobe Audience Manager co
 
 >[!IMPORTANT]
 >
-> La audiencia de este repositorio de documentación son empleados internos de Adobe. Si es cliente de Audience Manager, vaya a la [descripción general de la guía de Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> La audiencia de este repositorio de documentación son empleados internos de Adobe. Si es cliente de Audience Manager, vaya a la [descripción general de la guía de Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es)
 
 <!-- t_login.xml -->
 

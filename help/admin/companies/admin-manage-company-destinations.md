@@ -18,7 +18,7 @@ Cree, edite y elimine destinos de Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Para obtener información detallada, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) en la *Guía del usuario de Audience Manager*.
+Para obtener información detallada, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=es) en la *Guía del usuario de Audience Manager*.
 
 ## Crear o editar destinos de compañía {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ Este ID se utiliza como ID de la fuente de datos maestra. Esto determina los ID 
 >
 >Para el tipo de destino [!UICONTROL Bulk ID], no puede usar el identificador [!DNL Audience Manager] [!UICONTROL User ID] ni [!DNL Adobe Experience Cloud].
 
-Si el identificador de origen de datos ([!UICONTROL DPID]) no se muestra en la lista desplegable, debe seleccionar la casilla de verificación **[!UICONTROL Outbound]** en el nivel de origen de datos en la [página Configuración de Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Si el identificador de origen de datos ([!UICONTROL DPID]) no se muestra en la lista desplegable, debe seleccionar la casilla de verificación **[!UICONTROL Outbound]** en el nivel de origen de datos en la [página Configuración de Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es).
 
 * **[!UICONTROL Target Data Source]:** (obligatorio) Seleccione el origen de datos deseado para este destino en la lista desplegable. Esta configuración habilita el etiquetado de datos salientes, lo que permite la ingesta en sistemas independientes del lado del cliente.
 * **[!UICONTROL Foreign Account ID]:** Especifique el identificador de cuenta externa para este destino. Este es el valor de identificación en el sistema del destinatario para estos datos salientes.

@@ -44,7 +44,7 @@ Para aprovisionar bloques de [!DNL S3] para datos de entrada:
 
 >[!NOTE]
 >
->Desaconsejamos el uso de [!DNL FTP/SFTP] y recomendamos el uso de [!UICONTROL Amazon S3]. Las razones por las que recomendamos el uso de [!UICONTROL Amazon S3] se enumeran en [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
+>Desaconsejamos el uso de [!DNL FTP/SFTP] y recomendamos el uso de [!UICONTROL Amazon S3]. Las razones por las que recomendamos el uso de [!UICONTROL Amazon S3] se enumeran en [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=es).
 
 ## Acceso al DCS en el entorno de Beta {#access-dcs-beta-environment}
 
