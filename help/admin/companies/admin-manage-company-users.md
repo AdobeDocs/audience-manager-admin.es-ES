@@ -1,5 +1,5 @@
 ---
-description: Cree nuevos usuarios de Audience Manager o edite y elimine los existentes.
+description: Cree nuevos usuarios de Audience Manager o edite y elimine usuarios existentes.
 seo-description: Create new Audience Manager users or edit and delete existing users.
 seo-title: Manage Company Users
 title: Administrar usuarios de la empresa
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Administrar usuarios de la empresa {#manage-company-users}
 
-Cree nuevos usuarios de Audience Manager o edite y elimine los existentes.
+Cree nuevos usuarios de Audience Manager o edite y elimine usuarios existentes.
 
 <!-- t_manage_company_users.xml -->
 
@@ -34,10 +34,10 @@ Cree nuevos usuarios de Audience Manager o edite y elimine los existentes.
    * **[!UICONTROL Email Address]**: (obligatorio) especifique la dirección de correo electrónico del usuario.
    * **[!UICONTROL Phone Number]**: especifique el número de teléfono del usuario.
    * **[!UICONTROL IMS ID]**: [!UICONTROL Identity Management System ID] del usuario. Este ID permite al usuario vincular soluciones de Adobe a Adobe Experience Cloud.
-   * **[!UICONTROL Is Admin]**: convierta a este usuario en un usuario Audience Manager administrativo. Un administrador tiene todas las funciones de usuario de Audience Manager para este socio.
+   * **[!UICONTROL Is Admin]**: convierta a este usuario en un usuario administrativo de Audience Manager. Un administrador tiene todas las funciones de usuario de Audience Manager para este socio.
    * **[!UICONTROL Status]**: al crear un nuevo usuario, este campo se muestra inicialmente como **[!UICONTROL Pending]** hasta que el usuario inicia sesión y restablece la contraseña temporal. Si está editando un usuario existente, puede seleccionar entre los siguientes estados:
-      * **[!UICONTROL Active]**: especifica que este usuario es un usuario Audience Manager activo.
-      * **[!UICONTROL Deactivated]**: especifica que este usuario es un usuario Audience Manager desactivado.
+      * **[!UICONTROL Active]**: especifica que este usuario es un usuario activo de Audience Manager.
+      * **[!UICONTROL Deactivated]**: especifica que este usuario es un usuario de Audience Manager desactivado.
       * **[!UICONTROL Expired]**: especifica que este usuario es un usuario caducado.
       * **[!UICONTROL Locked Out]**: especifica que este usuario es un usuario bloqueado.
 

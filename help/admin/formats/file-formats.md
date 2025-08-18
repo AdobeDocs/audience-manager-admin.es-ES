@@ -105,7 +105,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave cerrada <code>&rbrace;</code>. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave cerrada <code>}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +113,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificador De Usuario Único Del Socio De Datos </span>. Devuelve el identificador que asignó a un usuario o visitante del sitio si ese identificador ya se ha sincronizado con un identificador de dispositivo </span> del Audience Manager <span class="keyword">. </p> <p>Si el DPID es 0, esta macro devolverá el ID del Audience Manager </span> <span class="keyword"> en lugar del ID del usuario. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificador De Usuario Único Del Socio De Datos </span>. Devuelve el identificador que asignó a un usuario o visitante del sitio si ese identificador ya se ha sincronizado con un identificador de dispositivo <span class="keyword"> Audience Manager </span>. </p> <p>Si el DPID es 0, esta macro devolverá el ID <span class="keyword"> de Audience Manager </span> en lugar del ID del usuario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -137,7 +137,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave <code>&lbrace;</code> abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave <code>{</code> abierto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -153,7 +153,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>ID de socio (PID). El PID aparece en la ficha </span> del perfil <span class="wintitle"> en la interfaz de usuario de administración. </p> </td> 
+   <td colname="col2"> <p>ID de socio (PID). El PID aparece en la ficha <span class="wintitle"> del perfil </span> en la interfaz de usuario de administración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -194,7 +194,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> ID de usuario </span> del Audience Manager <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ID de usuario </span> de Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>

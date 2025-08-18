@@ -57,7 +57,7 @@ Para obtener más información sobre la configuración de formatos y el uso de m
          * Deje este campo en blanco a menos que se le proporcione específicamente un subdirectorio en el que se deben colocar los datos. Si se le proporciona la dirección [!DNL s3://your-bucket/your-subdirectory], escriba [!DNL your-bucket] en el campo [!UICONTROL Bucket] y [!DNL your-subdirectory] se debe agregar al campo [!UICONTROL Directory]. No agregue las barras diagonales precedentes.
          * Si tiene que recorrer varios directorios por la ruta, solo entonces debe utilizar barras oblicuas como separadores. Así que una ubicación de [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] tendría [!DNL your-bucket] en el campo [!UICONTROL Bucket] y [!DNL your-subdirectory1/your-subdirectory2] en el campo [!UICONTROL Directory].
       * **[!UICONTROL Access / Secret Keys]**
-         * Cuando [!DNL TechOps] crea un bloque y proporciona claves de acceso/secretas a un consultor, esas credenciales suelen ser `READ-ONLY` credenciales que se van a entregar al cliente. Estas credenciales no se deben especificar en los campos [!UICONTROL Access / Secret Key], ya que la transferencia fallará (porque esas credenciales son de solo lectura, no de escritura). En caso de que [!DNL TechOps] cree un contenedor y proporcione credenciales, el consultor también debería solicitar un par de claves de Adobe (NO SE DEBE ENTREGAR AL CLIENTE) que permita escribir archivos en este contenedor. Esa clave debe añadirse a estos campos.
+         * Cuando [!DNL TechOps] crea un bloque y proporciona claves de acceso/secretas a un consultor, esas credenciales suelen ser `READ-ONLY` credenciales que se van a entregar al cliente. Estas credenciales no se deben especificar en los campos [!UICONTROL Access / Secret Key], ya que la transferencia fallará (porque esas credenciales son de solo lectura, no de escritura). En caso de que [!DNL TechOps] cree un contenedor y proporcione credenciales, el consultor también debería solicitar un par de claves de Adobe (QUE NO SE DEBE PROPORCIONAR AL CLIENTE) que permita escribir archivos en este contenedor. Esa clave debe añadirse a estos campos.
 
 * **[!DNL HTTP]**
    * **[!UICONTROL Domain]**
@@ -70,14 +70,14 @@ Para obtener más información sobre la configuración de formatos y el uso de m
 
 ### No hay tiempo suficiente para la generación saliente
 
-El proceso saliente se ejecuta dos veces al día y varios procesos (saliente, publicación, transferencia a ubicaciones externas, etc.) debe ejecutarse antes de que un archivo se inserte en su destino final. Una buena regla general es que un destino debe estar completamente configurado al menos 24 horas antes de que pueda esperar que los datos se inserten en una ubicación externa.
+El proceso saliente se ejecuta dos veces al día y varios procesos (salientes, publicaciones, transferencias a ubicaciones externas, etc.) deben ejecutarse antes de que un archivo se inserte en su destino final. Una buena regla general es que un destino debe estar completamente configurado al menos 24 horas antes de que pueda esperar que los datos se inserten en una ubicación externa.
 
 ### Tamaños de división de archivo demasiado grandes
 
-Al enviar archivos salientes a destinos, puede dividir archivos salientes más grandes en fragmentos de archivo. Asegúrese de que los fragmentos de archivo individuales no superen los 10 GB. Vea también [Nombre de archivo de datos de salida: sintaxis y ejemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=es).
+Al enviar archivos salientes a destinos, puede dividir archivos salientes más grandes en fragmentos de archivo. Asegúrese de que los fragmentos de archivo individuales no superen los 10 GB. Vea también [Nombre de archivo de datos de salida: sintaxis y ejemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
-## Configuración de los destinos para exportar ID de Experience Cloud, ID de cliente o ID de Audience Manager en archivos de datos salientes {#set-up-destinations-export}
+## Configuración de los destinos para exportar los Experience Cloud ID, los ID de cliente o los ID de Audience Manager en archivos de datos salientes {#set-up-destinations-export}
 
 Esta página muestra cómo configurar destinos para exportar datos con claves del tipo de identificador que desee en [!UICONTROL Outbound Data Files].
 
@@ -89,7 +89,7 @@ Los destinos permiten a nuestros clientes activar sus datos en cualquier cantida
 >
 >Para ver un tutorial detallado sobre la creación de destinos en la IU de administración, consulte el artículo [Crear o editar destinos de compañía](companies/admin-manage-company-destinations.md#create-edit-company-destinations).
 
-Los clientes desean exportar distintos tipos de ID según el destino. El gráfico de configuración siguiente muestra las opciones que debe seleccionar para exportar información de perfil relacionada con distintos tipos de ID. También le recomendamos que consulte el [Índice de ID en el Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=es). Hay tres opciones importantes que se deben tener en cuenta: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] y [!UICONTROL Format]. A continuación detallamos todos ellos.
+Los clientes desean exportar distintos tipos de ID según el destino. El gráfico de configuración siguiente muestra las opciones que debe seleccionar para exportar información de perfil relacionada con distintos tipos de ID. También le recomendamos que consulte el [Índice de ID en Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Hay tres opciones importantes que se deben tener en cuenta: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] y [!UICONTROL Format]. A continuación detallamos todos ellos.
 
 * [!UICONTROL User ID Key]. En [!UICONTROL Admin UI], vaya a **[!UICONTROL Companies]**. Busque la empresa del cliente y haga clic en ella. Busque la ficha **[!UICONTROL Destinations]** y presione **[!UICONTROL Add Destination]**. En el flujo de trabajo **[!UICONTROL Add Destination]**, seleccione [!UICONTROL User ID Key]. [!UICONTROL User ID Key] filtrará los identificadores entrantes del origen de datos de destino y solo permitirá que pasen los identificadores.
 
@@ -140,21 +140,21 @@ Para inspeccionar un formato, vaya a **[!UICONTROL Admin UI > Formats]** y busqu
   <tr> 
    <td colname="col01"> 4 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>UUID DE AUDIENCE MANAGER </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 5 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>UUID DE AUDIENCE MANAGER </p> </td> 
   </tr> 
@@ -182,21 +182,21 @@ Para inspeccionar un formato, vaya a **[!UICONTROL Admin UI > Formats]** y busqu
   <tr> 
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID (cualquier fuente de datos a la que la compañía tenga acceso) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>UUID DE AUDIENCE MANAGER </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
    <td colname="col1"> <p>DPID (cualquier fuente de datos a la que la compañía tenga acceso) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
    <td colname="col1"> <p>DPID (cualquier fuente de datos a la que la compañía tenga acceso) </p> </td> 
-   <td colname="col2"> <p>ID de Audience Manager </p> </td> 
+   <td colname="col2"> <p>AUDIENCE MANAGER ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>UUID DE AUDIENCE MANAGER </p> </td> 
   </tr> 
@@ -205,4 +205,4 @@ Para inspeccionar un formato, vaya a **[!UICONTROL Admin UI > Formats]** y busqu
 
 ## Casos de uso
 
-Supongamos que usa el Audience Manager y [!DNL Campaign]. Para poder procesar los datos del cliente en [!DNL Campaign], desea exportar [!UICONTROL Experience Cloud IDs]. En este caso, debe utilizar el número de configuración 3.
+Supongamos que usa Audience Manager y [!DNL Campaign]. Para poder procesar los datos del cliente en [!DNL Campaign], desea exportar [!UICONTROL Experience Cloud IDs]. En este caso, debe utilizar el número de configuración 3.

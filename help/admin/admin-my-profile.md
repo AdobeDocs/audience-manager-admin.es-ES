@@ -20,7 +20,7 @@ Edite los detalles del perfil de la herramienta de administración de Audience M
 
 ## Editar perfil {#edit-profile}
 
-Vea y edite el perfil de la herramienta de administración de Audience Manager, incluidos el nombre y los apellidos, el nombre de usuario, la dirección de correo electrónico, el número de teléfono, [!UICONTROL IMS ID], los roles de usuario y el estado.
+Vea y edite su perfil de la herramienta de administración de Audience Manager, incluidos el nombre y los apellidos, el nombre de usuario, la dirección de correo electrónico, el número de teléfono, [!UICONTROL IMS ID], los roles de usuario y el estado.
 
 <!-- t_edit_profile.xml -->
 
@@ -40,13 +40,13 @@ Vea y edite el perfil de la herramienta de administración de Audience Manager, 
       * **[!UICONTROL CREATE_USERS]:** Permite que los usuarios creen nuevos usuarios mediante una llamada de [!DNL API].
       * **[!UICONTROL DELETE_USERS]:** Permite que los usuarios eliminen usuarios existentes mediante una llamada de [!DNL API].
       * **[!UICONTROL EDIT_USERS]:** Permite que los usuarios editen usuarios existentes mediante una llamada de [!DNL API].
-      * **[!UICONTROL VIEW_USERS]:** Permite que los usuarios vean a otros usuarios en la configuración de su Audience Manager mediante una llamada de [!DNL API].
+      * **[!UICONTROL VIEW_USERS]:** Permite que los usuarios vean a otros usuarios en su configuración de Audience Manager mediante una llamada de [!DNL API].
       * **[!UICONTROL CREATE_PARTNERS]:** Permite que los usuarios creen socios de Audience Manager mediante una llamada de [!DNL API].
       * **[!UICONTROL DELETE_PARTNERS]:** Permite que los usuarios eliminen socios de Audience Manager mediante una llamada de [!DNL API].
-      * **[!UICONTROL EDIT_PARTNERS]:** Permite que los usuarios editen los socios de Audience Manager mediante una llamada de [!DNL API].
+      * **[!UICONTROL EDIT_PARTNERS]:** Permite que los usuarios editen socios de Audience Manager mediante una llamada de [!DNL API].
       * **[!UICONTROL VIEW_PARNTERS]:** Permite que los usuarios vean socios de Audience Manager mediante una llamada de [!DNL API].
    * **[!UICONTROL Status]:** Seleccione el estado deseado:
-      * **[!UICONTROL Active]:** Especifica que este usuario es un usuario Audience Manager activo.
+      * **[!UICONTROL Active]:** Especifica que este usuario está en un usuario activo de Audience Manager.
       * **[!UICONTROL Deactivated]:** Especifica que este usuario es un usuario desactivado en Audience Management.
       * **[!UICONTROL Expired]:** Especifica que la cuenta de este usuario en Audience Manager ha caducado.
       * **[!UICONTROL Locked Out]:** Especifica que la cuenta de este usuario en Audience Manager está bloqueada.

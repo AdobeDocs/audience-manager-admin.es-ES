@@ -1,5 +1,5 @@
 ---
-description: Es posible que algunos clientes no deseen proporcionar su acceso a Amazon Simple Storage Service (Amazon S3) o claves secretas al Adobe para autorizar la carga de datos de destino en sus contenedores.
+description: Es posible que algunos clientes no deseen proporcionar su acceso a Amazon Simple Storage Service (Amazon S3) o claves secretas a Adobe para autorizar la carga de datos de destino en sus contenedores.
 seo-description: Some customers may not want to provide their Amazon Simple Storage Service (Amazon S3) access or secret keys to Adobe to authorize destination data upload to their buckets.
 seo-title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations
 title: Cómo autorizar el acceso de bloques de Amazon S3 entre cuentas para destinos por lotes
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Cómo autorizar el acceso de bloques de Amazon S3 entre cuentas para destinos por lotes{#authorize-cross-account-bucket-batch}
 
-Es posible que algunos clientes no deseen proporcionar su acceso de [!DNL Amazon S3] o claves secretas al Adobe para autorizar la carga de datos de destino en sus contenedores.
+Es posible que algunos clientes no deseen proporcionar su acceso de [!DNL Amazon S3] o claves secretas a Adobe para autorizar la carga de datos de destino en sus contenedores.
 
 Una alternativa que podemos ofrecer a nuestros clientes es [!UICONTROL Cross-Account Bucket Permissions] en [!DNL Amazon S3]. Este proceso se describe en la [documentación de AWS](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Para habilitar esta alternativa en Audience Manager, siga los pasos a continuación:
 

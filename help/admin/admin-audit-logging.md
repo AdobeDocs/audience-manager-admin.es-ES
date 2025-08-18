@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Registro de auditoría {#audit-logging}
 
-Use [!UICONTROL &#x200B; Audit Logging] como primer lugar al depurar problemas de clientes.
+Use [!UICONTROL  Audit Logging] como primer lugar al depurar problemas de clientes.
 
 >[!NOTE]
 >

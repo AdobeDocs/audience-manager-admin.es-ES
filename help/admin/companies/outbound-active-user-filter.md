@@ -1,5 +1,5 @@
 ---
-description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. DSP Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un grupo de destinatarios de un sitio de destino No puede utilizar este filtro con sincronización incremental.
+description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
 seo-description: Follow these instructions to generate a full synchronization file that includes recently active users only. You may want to filter for active users to push relevant data to an on-site targeting system or to limit the size of the files sent to a DSP. You cannot use this filter with incremental synchronization.
 seo-title: Filter Outbound Data by Active Users Only
 title: Filtrar datos de salida solo por usuarios activos
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Filtrar datos de salida solo por usuarios activos {#filter-outbound-data-by-active-users-only}
 
-Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. DSP Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un grupo de destinatarios de un sitio de destino No puede utilizar este filtro con sincronización incremental.
+Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
 
 >[!NOTE]
 >

@@ -2,7 +2,7 @@
 description: Cosas que debe animar a sus clientes a tener en cuenta cuando trabajan con las API de Audience Manager.
 seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
 seo-title: API Requirements and Recommendations
-title: Requisitos de API y Recommendations
+title: Requisitos y recomendaciones de API
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
 source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Requisitos de API y Recommendations {#api-requirements-and-recommendations}
+# Requisitos y recomendaciones de API {#api-requirements-and-recommendations}
 
-Cosas que debe animar a los clientes a tener en cuenta cuando trabajan con el Audience Manager [!DNL API].
+Aspectos que debe advertir a los clientes cuando trabajan con Audience Manager [!DNL API].
 
 ## Requisitos {#requirements}
 
@@ -31,9 +31,9 @@ Tenga en cuenta lo siguiente al trabajar con el código [!DNL Audience Manager] 
 
 ## Recommendations: Crear un usuario de API genérico {#recommendations}
 
-Se recomienda crear una cuenta de usuario técnica independiente para trabajar con el Audience Manager [!DNL API]. Se trata de una cuenta genérica que no está vinculada a un usuario específico de la organización del cliente ni asociada a él. Este tipo de cuenta de usuario [!DNL API] ayuda a lograr dos cosas:
+Se recomienda crear una cuenta de usuario técnica independiente para trabajar con Audience Manager [!DNL API]. Se trata de una cuenta genérica que no está vinculada a un usuario específico de la organización del cliente ni asociada a él. Este tipo de cuenta de usuario [!DNL API] ayuda a lograr dos cosas:
 
 * Identifique qué servicio está llamando a [!DNL API] (por ejemplo, llamadas de una aplicación cliente que usa nuestros [!DNL API]s o desde que realiza cambios masivos).
 * Proporcione acceso ininterrumpido a [!DNL API]. Una cuenta vinculada a un empleado específico puede ser eliminada cuando se va de la compañía. Esto evitará que sus clientes trabajen con el código [!DNL API] disponible. Una cuenta genérica que no esté vinculada a un empleado en particular ayuda a evitar este problema.
 
-Como ejemplo o caso de uso para este tipo de cuenta, supongamos que sus clientes desean cambiar muchos segmentos a la vez con las [herramientas de administración masiva](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=es). Para ello, necesitan acceso de [!DNL API]. En lugar de agregar permisos a un usuario específico, cree una cuenta de usuario [!DNL API] no específica que tenga las credenciales, la clave y el secreto adecuados para realizar llamadas a [!DNL API]. Esto también resulta útil si el cliente desarrolla sus propias aplicaciones que utilizan [!DNL Audience Manager] [!DNL API]s.
+Como ejemplo o caso de uso para este tipo de cuenta, supongamos que sus clientes desean cambiar muchos segmentos a la vez con las [herramientas de administración masiva](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en). Para ello, necesitan acceso de [!DNL API]. En lugar de agregar permisos a un usuario específico, cree una cuenta de usuario [!DNL API] no específica que tenga las credenciales, la clave y el secreto adecuados para realizar llamadas a [!DNL API]. Esto también resulta útil si el cliente desarrolla sus propias aplicaciones que utilizan [!DNL Audience Manager] [!DNL API]s.

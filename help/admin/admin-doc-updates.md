@@ -16,16 +16,16 @@ ht-degree: 94%
 
 Todas las actualizaciones (adiciones, eliminaciones y correcciones) realizadas por fecha en la Guía de administración de Audience Manager.
 
-Para obtener información sobre las versiones, mejoras y correcciones de errores de las funciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es). Para ver [!DNL Audience Manager] cambios de documentación, consulte [Actualizaciones de documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=es).
+Para obtener información sobre las versiones, mejoras y correcciones de errores de las funciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Para ver [!DNL Audience Manager] cambios de documentación, consulte [Actualizaciones de documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
-## AAM Actualizaciones de documentación de 2019 de {#aam-2019-docs-updates}
+## Actualizaciones de documentación de AAM 2019 {#aam-2019-docs-updates}
 
 | Tema | Descripción |
 |--- |--- |
 | Macros de formato HTTP | Hemos añadido una nueva macro, `REGION_ID_LIST`, y tres campos nuevos `sda`, `sda` y `sda` a la macro `USER_LIST`. |
 | Macros de formato HTTP | Hemos añadido dos nuevas macros: `ECID` y `MCID`. |
 
-## AAM Actualizaciones de documentación de 2018 de {#aam-2018-docs-updates}
+## Actualizaciones de documentación de AAM 2018 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -52,7 +52,7 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
  </tbody> 
 </table>
 
-## AAM Actualizaciones de documentación de 2017 de {#aam-2017-docs-updates}
+## Actualizaciones de documentación de AAM 2017 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -100,12 +100,12 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Requisitos y recomendaciones de API</a> </p> </td> 
-   <td colname="col2"> <p>Nueva documentación que describe algunos requisitos y recomendaciones que deben tenerse en cuenta y transmitirse a los clientes. Este contenido está duplicado en los documentos públicos con el mismo título y cambia en función de la audiencia que lea el contenido. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=es#api-requirements-recommendations" format="https" scope="external"> Requisitos y recomendaciones de API</a> en los documentos públicos. </p> </td> 
+   <td colname="col2"> <p>Nueva documentación que describe algunos requisitos y recomendaciones que deben tenerse en cuenta y transmitirse a los clientes. Este contenido está duplicado en los documentos públicos con el mismo título y cambia en función de la audiencia que lea el contenido. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> Requisitos y recomendaciones de API</a> en los documentos públicos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## AAM Actualizaciones de documentación de 2016 de {#aam-2016-docs-updates}
+## Actualizaciones de documentación de AAM 2016 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
  </tbody> 
 </table>
 
-## AAM Actualizaciones de documentación de 2015 de {#aam-2015-docs-updates}
+## Actualizaciones de documentación de AAM 2015 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
  </tbody> 
 </table>
 
-## AAM Actualizaciones de documentación de 2014 de {#aam-2014-docs-updates}
+## Actualizaciones de documentación de AAM 2014 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 

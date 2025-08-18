@@ -1,5 +1,5 @@
 ---
-description: Utilice la página Informes para convertir un usuario de portal en un usuario de Tableau. Esto permite a los usuarios ver los informes de Tableau en el Audience Manager.
+description: Utilice la página Informes para convertir un usuario de portal en un usuario de Tableau. Esto permite a los usuarios ver los informes de Tableau en Audience Manager.
 seo-description: Use the Reporting page to make a portal user a Tableau user. This lets users view Tableau reports in Audience Manager.
 seo-title: Assign a Portal User to Tableau User
 title: Asignar un usuario de portal al usuario de Tableau
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- t_tabeau.xml -->
 
-Utilice la página [!UICONTROL Reporting] para convertir un usuario del portal en un usuario de [!DNL Tableau]. Esto permite a los usuarios ver [!DNL Tableau] informes en el Audience Manager.
+Utilice la página [!UICONTROL Reporting] para convertir un usuario del portal en un usuario de [!DNL Tableau]. Esto permite a los usuarios ver [!DNL Tableau] informes en Audience Manager.
 
 1. Haga clic en **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 

@@ -8,7 +8,7 @@ uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -24,9 +24,9 @@ El entorno beta sirve para probar implementaciones de Audience Manager. Los camb
 | Servicio | URL/Nombre de host | Pasos para aprovisionar |
 |--- |--- |--- |
 | S3 | | Consulte [Aprovisionar bloques de Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&colon;//dcs-beta.demdex.net/... | No se necesitan pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el entorno de Beta](admin-beta-environment.md#access-dcs-beta-environment). |
-| IU | https&colon;//bank-beta.demdex.com | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
-| API | https&colon;//api-beta.demdex.com/... | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | No se necesitan pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el entorno de Beta](admin-beta-environment.md#access-dcs-beta-environment). |
+| IU | https&amp;colon;//bank-beta.demdex.com | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
+| API | https&amp;colon;//api-beta.demdex.com/... | Los datos se copian mensualmente de la producción al entorno beta. Las credenciales de producción son válidas para la versión beta. |
 
 ## Aprovisionar bloques de Amazon S3 {#provision-s3-buckets}
 
@@ -44,7 +44,7 @@ Para aprovisionar bloques de [!DNL S3] para datos de entrada:
 
 >[!NOTE]
 >
->Desaconsejamos el uso de [!DNL FTP/SFTP] y recomendamos el uso de [!UICONTROL Amazon S3]. Las razones por las que recomendamos el uso de [!UICONTROL Amazon S3] se enumeran en [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=es).
+>Desaconsejamos el uso de [!DNL FTP/SFTP] y recomendamos el uso de [!UICONTROL Amazon S3]. Las razones por las que recomendamos el uso de [!UICONTROL Amazon S3] se enumeran en [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
 ## Acceso al DCS en el entorno de Beta {#access-dcs-beta-environment}
 

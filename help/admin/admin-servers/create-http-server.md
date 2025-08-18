@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Crear o editar un servidor HTTP {#create-or-edit-an-http-server}
 
-Utilice la página [!UICONTROL Servers] de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o para editar uno existente.
+Utilice la página [!UICONTROL Servers] de la herramienta de administración de Audience Manager para crear un servidor HTTP nuevo o para editar uno existente.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Utilice la página [!UICONTROL Servers] de la herramienta de administración de 
 
    >[!NOTE]
    >
-   >Si desea habilitar la autenticación [OAuth 2.0 para transferencias de datos en tiempo real](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=es) para un socio, rellene los campos como se muestra en la tabla siguiente. Los campos de *cursiva* deben rellenarse exactamente como en la tabla.
+   >Si desea habilitar la autenticación [OAuth 2.0 para transferencias de datos en tiempo real](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) para un socio, rellene los campos como se muestra en la tabla siguiente. Los campos de *cursiva* deben rellenarse exactamente como en la tabla.
 
    | Nombre  | Valor |
    |---|---|

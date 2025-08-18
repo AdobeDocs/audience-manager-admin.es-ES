@@ -1,5 +1,5 @@
 ---
-description: Puede habilitar las transferencias por lotes salientes de archivos binarios de secuencia de Hadoop (SEQ) para los clientes de Audience Manager.
+description: Puede habilitar las transferencias por lotes salientes de archivos de secuencia binarios de Hadoop (SEQ) para los clientes de Audience Manager.
 seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batch transfers for Audience Manager customers.
 seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: Habilitar las transferencias salientes de archivos de secuencias de Hadoop
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Habilitar las transferencias salientes de archivos de secuencias de Hadoop {#enable-hadoop-sequence-file-transfers-for-outbound}
 
-Puede habilitar las transferencias por lotes salientes binarias [!DNL Hadoop Sequence Files] ([!DNL SEQ]) para los clientes de Audience Manager.
+Puede habilitar transferencias por lotes salientes binarias [!DNL Hadoop Sequence Files] ([!DNL SEQ]) para clientes de Audience Manager.
 
 Para habilitar [!DNL SEQ] transferencias de archivos salientes:
 

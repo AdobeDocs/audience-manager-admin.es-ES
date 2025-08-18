@@ -1,5 +1,5 @@
 ---
-description: Utilice la página Clientes de OAuth2 para ver una lista de clientes de OAuth2 en la configuración del Audience Manager. Puede editar o eliminar clientes existentes o crear nuevos clientes, siempre que tenga asignados los roles de usuario adecuados.
+description: Utilice la página Clientes de OAuth2 para ver una lista de clientes de OAuth2 en la configuración de Audience Manager. Puede editar o eliminar clientes existentes o crear nuevos clientes, siempre que tenga asignados los roles de usuario adecuados.
 seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
 seo-title: OAuth2 Clients
 title: Clientes de OAuth2
@@ -22,7 +22,7 @@ Utilice la página [!UICONTROL OAuth2 Clients] para ver una lista de [!UICONTROL
 
 >[!NOTE]
 >
->Asegúrese de que el cliente lea la documentación de [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=es#oauth) en la Guía del usuario del Audience Manager.
+>Asegúrese de que su cliente lea la documentación de [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) en la Guía del usuario de Audience Manager.
 
 [!DNL OAuth2] es un estándar abierto para la autorización de proporcionar acceso delegado protegido a [!DNL Audience Manager] recursos en nombre de un propietario de recursos.
 

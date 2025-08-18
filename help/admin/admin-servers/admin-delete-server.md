@@ -1,5 +1,5 @@
 ---
-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para borrar un servidor existente.
+description: Utilice la página Servidores de la herramienta de administración de Audience Manager para eliminar un servidor existente.
 seo-description: Use the Servers page in the Audience Manager Admin tool to delete an existing server.
 seo-title: Delete a Server
 title: Eliminar un servidor

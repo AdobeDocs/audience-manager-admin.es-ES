@@ -30,12 +30,12 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> ID. de Audience Manager </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> ID. </span> de Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el identificador que ha asignado a un usuario si su identificador ya se ha sincronizado con un identificador de dispositivo del Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el identificador que ha asignado a un usuario si su identificador ya se ha sincronizado con un identificador de dispositivo <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Marca de tiempo Unix UTC. AAM Una marca de tiempo interna representa la hora en la que se notificó a los socios a los que se les notificó que publicaran el destino <span class="wintitle"> S2S </span>. </p> </td> 
+   <td colname="col3"> <p>Marca de tiempo Unix UTC. Una marca de tiempo interna representa la hora a la que AAM recibió una notificación para publicar el destino <span class="wintitle"> S2S </span> para nuestros socios. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -60,7 +60,7 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de Experience Cloud. (MCID significa Marketing Cloud, que es el nombre heredado del Experience Cloud) </p> </td> 
+   <td colname="col3"> <p>ID de Experience Cloud. (MCID significa Marketing Cloud, que es el nombre heredado de Experience Cloud) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -90,7 +90,7 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Región del DCS del Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=es"> </a> en la que se originó la actividad.</p> </td> 
+   <td colname="col3"> <p>Región <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> del DCS de Audience Manager </a> en la que se originó la actividad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -173,7 +173,7 @@ Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples
      <li><code>user.regionIds</code></li> 
     </ul> <p>Especifique estos campos como se muestra en este ejemplo: </p> <p> 
      <codeblock>
-       AAM "_UUID": "&lt;user.aamUuid&gt;" 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
 "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
      </codeblock> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> ejemplos de macros de formato HTTP </a> para ver un ejemplo completo. </p> </td> 
   </tr>

@@ -1,5 +1,5 @@
 ---
-description: Inicie sesión en el portal de administración de cuentas en Adobe interno para solicitar acceso de administrador funcional y siga los pasos que se describen a continuación.
+description: Inicie sesión en el portal de administración de cuentas en Adobe para solicitar acceso de administrador funcional y siga los pasos que se describen a continuación.
 seo-description: Log in to the Account Management portal in Inside Adobe to request Functional Admin Access and follow the steps described below.
 seo-title: How to Request Functional Admin Access
 title: Cómo solicitar acceso de administrador funcional
