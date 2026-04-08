@@ -5,9 +5,12 @@ seo-title: Manage Company Destinations
 title: Administrar destinos de compañía
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: 1101
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ Cree, edite y elimine destinos de Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Para obtener información detallada, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=es) en la *Guía del usuario de Audience Manager*.
+Para obtener información detallada, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) en la *Guía del usuario de Audience Manager*.
 
 ## Crear o editar destinos de compañía {#create-edit-company-destinations}
 
@@ -58,7 +61,7 @@ Este ID se utiliza como ID de la fuente de datos maestra. Esto determina los ID 
 >
 >Para el tipo de destino [!UICONTROL Bulk ID], no puede usar el identificador [!DNL Audience Manager] [!UICONTROL User ID] ni [!DNL Adobe Experience Cloud].
 
-Si el identificador de origen de datos ([!UICONTROL DPID]) no se muestra en la lista desplegable, debe seleccionar la casilla de verificación **[!UICONTROL Outbound]** en el nivel de origen de datos en la [página Configuración de Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=es).
+Si el identificador de origen de datos ([!UICONTROL DPID]) no se muestra en la lista desplegable, debe seleccionar la casilla de verificación **[!UICONTROL Outbound]** en el nivel de origen de datos en la [página Configuración de Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:** (obligatorio) Seleccione el origen de datos deseado para este destino en la lista desplegable. Esta configuración habilita el etiquetado de datos salientes, lo que permite la ingesta en sistemas independientes del lado del cliente.
 * **[!UICONTROL Foreign Account ID]:** Especifique el identificador de cuenta externa para este destino. Este es el valor de identificación en el sistema del destinatario para estos datos salientes.

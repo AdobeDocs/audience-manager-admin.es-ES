@@ -5,9 +5,11 @@ seo-title: File Format Macros
 title: Macros de formato de archivo
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave cerrada <code>&rbrace;</code>. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave cerrada <code>}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,7 +139,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Inserta un carácter de llave <code>&lbrace;</code> abierto. </p> </td> 
+   <td colname="col2"> <p>Inserta un carácter de llave <code>{</code> abierto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -153,7 +155,7 @@ Macros utilizadas solo en filas de datos. Para ver ejemplos, vea [Ejemplos de ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>ID de socio (PID). El PID aparece en la ficha <span class="wintitle"> del perfil </span> en la interfaz de usuario de administración. </p> </td> 
+   <td colname="col2"> <p>ID de socio (PID). El PID aparece en la ficha </span> del perfil <span class="wintitle"> en la interfaz de usuario de administración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 

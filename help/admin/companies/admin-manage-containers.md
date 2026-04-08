@@ -5,9 +5,11 @@ seo-title: Manage Containers
 title: Administrar contenedores
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/xV6qof80WHIYI6R8-INw3fOsmxTUzf-pN0SoDSST69I
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: 147
 ht-degree: 3%
 
 ---

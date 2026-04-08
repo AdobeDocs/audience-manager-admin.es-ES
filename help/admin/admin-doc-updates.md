@@ -5,10 +5,14 @@ seo-title: Documentation Updates
 title: Actualizaciones de documentación
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/QQHJ9VBxkF-pMFYIvgny6JJRS38Q-3nXD1kSzWdGJxQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 94%
+source-wordcount: 644
+ht-degree: 88%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 94%
 
 Todas las actualizaciones (adiciones, eliminaciones y correcciones) realizadas por fecha en la Guía de administración de Audience Manager.
 
-Para obtener información sobre las versiones, mejoras y correcciones de errores de las funciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es). Para ver [!DNL Audience Manager] cambios de documentación, consulte [Actualizaciones de documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=es).
+Para obtener información sobre las versiones, mejoras y correcciones de errores de las funciones, consulte las [Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Para ver [!DNL Audience Manager] cambios de documentación, consulte [Actualizaciones de documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## Actualizaciones de documentación de AAM 2019 {#aam-2019-docs-updates}
 
@@ -100,7 +104,7 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Requisitos y recomendaciones de API</a> </p> </td> 
-   <td colname="col2"> <p>Nueva documentación que describe algunos requisitos y recomendaciones que deben tenerse en cuenta y transmitirse a los clientes. Este contenido está duplicado en los documentos públicos con el mismo título y cambia en función de la audiencia que lea el contenido. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=es#api-requirements-recommendations" format="https" scope="external"> Requisitos y recomendaciones de API</a> en los documentos públicos. </p> </td> 
+   <td colname="col2"> <p>Nueva documentación que describe algunos requisitos y recomendaciones que deben tenerse en cuenta y transmitirse a los clientes. Este contenido está duplicado en los documentos públicos con el mismo título y cambia en función de la audiencia que lea el contenido. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> Requisitos y recomendaciones de API</a> en los documentos públicos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
