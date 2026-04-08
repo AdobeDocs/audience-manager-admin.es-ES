@@ -5,9 +5,12 @@ seo-title: ID Syncing with Media Optimizer
 title: Sincronización de ID con Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 exl-id: ebd978ef-3825-4a96-94bd-5cdae269cf7c
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/R6xtPWC964J1atGK-R0g6J5AG83PYJosHNE3-5LvMVE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: 222
 ht-degree: 2%
 
 ---

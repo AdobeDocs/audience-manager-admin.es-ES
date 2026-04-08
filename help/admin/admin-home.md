@@ -5,10 +5,17 @@ seo-title: Audience Manager Admin Home
 title: Página principal del administrador de Audience Manager
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
+TQID: https://experienceleague.adobe.com/eBF21MejF-AR-LUhqqCcd7ObZc9u-SqMbitmnFnCBao
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 83%
+source-wordcount: 223
+ht-degree: 72%
 
 ---
 
@@ -40,7 +47,7 @@ La herramienta Audience Manager permite añadir y configurar compañías, servid
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/es/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/es/support/social.html" format="http" scope="external"> Comunidad de Adobe Social</a> </li> 
-     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/es/learning.html?promoid=KAUDK" format="https" scope="external"> Formación y tutoriales de Adobe</a> </li> 
+     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Formación y tutoriales de Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/es/support/experience-cloud.html" format="https" scope="external"> Página de inicio de documentación del producto</a> </li> 
     </ul> </td> 
