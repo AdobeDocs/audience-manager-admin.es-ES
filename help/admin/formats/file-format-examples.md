@@ -6,7 +6,8 @@ title: Ejemplos de macros de formato de archivo
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
 TQID: https://experienceleague.adobe.com/G90HDd1wpf-fgftySBnc-JG-l-DMi7X-sPopemyXpGg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 203
@@ -113,11 +114,11 @@ Macros utilizadas solo en campos de encabezado. Consulte [Macros de formato de a
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>En este ejemplo se crea un formato que devuelve segmentos eliminados en una fuente de servidor a servidor. </p> <p> 
      <code>
-       {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
-      "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+       &lbrace;"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
+      "Data":&lbrack;&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
       separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; 
-      &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
-      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]} 
+      &lt;REMOVED_SEGMENT_LIST:&lbrace;seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
+      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;&rbrace;;&nbsp;separator=","&gt;&rbrack;&rbrace; 
      </code> </p> </td> 
   </tr> 
   <tr> 

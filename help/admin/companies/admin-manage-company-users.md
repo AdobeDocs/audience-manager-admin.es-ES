@@ -6,7 +6,8 @@ title: Administrar usuarios de la empresa
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
 exl-id: a2c5fd10-699f-4a0d-acec-f46811140e48
 TQID: https://experienceleague.adobe.com/hr8y9o-ghVHBh-O-7w0MtTV2yoXIpqc0BvLf8CSzpN8
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 272

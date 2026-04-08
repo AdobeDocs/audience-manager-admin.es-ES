@@ -6,7 +6,8 @@ title: Creación o edición de un servidor S3
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
 TQID: https://experienceleague.adobe.com/rtXpkVovwbjCwLk3caZ7Ii-LLcr2n3eL73OADaLoul0
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 211

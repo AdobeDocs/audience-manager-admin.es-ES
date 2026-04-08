@@ -6,8 +6,10 @@ title: Administrar límites de compañía
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 exl-id: dd6d04ef-895a-4bd7-bf9d-851e2fdcb594
 TQID: https://experienceleague.adobe.com/14-37dgBQDGJIhe4QvyWSQKf28chvd8ciCB6tyuJkZQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 287

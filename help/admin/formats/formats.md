@@ -6,9 +6,12 @@ title: Información general de formatos
 uuid: ec80ac49-6ec5-4cd4-a881-a05240675c00
 exl-id: f40a1efb-df27-483f-999a-ef19c8eead87
 TQID: https://experienceleague.adobe.com/wuGvLtWngHp-TESUtHVXkDlmy3Iv2Ia8PjGRVOFO8q8
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 181

@@ -6,7 +6,8 @@ title: Opciones de gráfico de dispositivos para compañías
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 exl-id: 2502f3d2-b43c-410c-acb6-03c2a2ba2c1d
 TQID: https://experienceleague.adobe.com/82qZw1UwK-qaJD2WWXENH2EUtiZur4L2YMhrZO09cCg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 511

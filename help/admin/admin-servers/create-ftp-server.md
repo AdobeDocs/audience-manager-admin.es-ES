@@ -6,7 +6,8 @@ title: Crear o editar un servidor FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
 TQID: https://experienceleague.adobe.com/vXm5k1APT6BVn0Ub7ntfDCnAdSfOWTLRo6ci-yK5cWk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 397
