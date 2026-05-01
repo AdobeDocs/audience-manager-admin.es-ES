@@ -7,7 +7,7 @@ feature-set: Audience Manager
 landing-page-name: audience-manager
 landing-page-breadcrumb-title: Audience Manager
 getting-started-title: Getting Started
-git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.es-ES
 index: false
 hide: true
 source-git-commit: 9dc7b69c91ab9fec077a0d92f4b75319800c6ed4
