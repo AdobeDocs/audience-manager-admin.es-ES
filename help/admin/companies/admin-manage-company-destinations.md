@@ -12,7 +12,7 @@ feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Rellene los campos de la ventana **[!UICONTROL Basic Settings]**.
 * **[!UICONTROL Name]:** (obligatorio) Especifique el nombre de este destino.
 * **[!UICONTROL Description]:** Especifique información descriptiva sobre este destino.
 * **[!UICONTROL Type]:** (obligatorio) Seleccione el tipo de destino deseado:
-   * **[!UICONTROL Bulk ID]**: sincronizar ID entre distintas plataformas.
-   * **[!UICONTROL Bulk Trait]**: envía información de características de forma masiva a diferentes plataformas.
-   * **[!UICONTROL Bulk Segment]**: envía información de segmentos de forma masiva a diferentes plataformas.
-   * **[!UICONTROL S2S]**: utilice destinos de servidor a servidor para enviar datos en tiempo real y por lotes a diferentes plataformas.
+  * **[!UICONTROL Bulk ID]**: sincronizar ID entre distintas plataformas.
+  * **[!UICONTROL Bulk Trait]**: envía información de características de forma masiva a diferentes plataformas.
+  * **[!UICONTROL Bulk Segment]**: envía información de segmentos de forma masiva a diferentes plataformas.
+  * **[!UICONTROL S2S]**: utilice destinos de servidor a servidor para enviar datos en tiempo real y por lotes a diferentes plataformas.
 * **[!UICONTROL Auto-Fill Destination Mapping]:** ( solo [!UICONTROL S2S]) Seleccione una opción:
-   * **[!UICONTROL Segment ID]:** Si selecciona esta configuración, la asignación de valor de destino se rellenará con el ID de segmento [!DNL Audience Manager].
-   * **[!UICONTROL Integration Code Value]:** Si selecciona esta configuración, la asignación del valor de destino se rellenará con el código de integración de segmentos [!DNL Audience Manager].
+  * **[!UICONTROL Segment ID]:** Si selecciona esta configuración, la asignación de valor de destino se rellenará con el ID de segmento [!DNL Audience Manager].
+  * **[!UICONTROL Integration Code Value]:** Si selecciona esta configuración, la asignación del valor de destino se rellenará con el código de integración de segmentos [!DNL Audience Manager].
 * **[!UICONTROL User ID Key]:** (obligatorio) Seleccione la clave de ID de usuario que desee para este destino en la lista desplegable.
 
 Este ID se utiliza como ID de la fuente de datos maestra. Esto determina los ID de usuario que deben saltar en el archivo.
@@ -85,9 +85,9 @@ Si está creando un destino de [!UICONTROL S2S], rellene los campos siguientes:
 Para destinos de [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] o [!UICONTROL Bulk Segment], rellene los campos siguientes:
 
 * **[!UICONTROL Protocol]**: (obligatorio) seleccione el protocolo deseado para este destino en la lista desplegable:
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (obligatorio) seleccione el servidor deseado para este destino en la lista desplegable.
 * **[!UICONTROL Format]**: (Obligatorio) Seleccione el formato que desee para este destino en la lista desplegable: [!DNL HTTP] o tipo de archivo, según el protocolo que haya elegido anteriormente.
 * **[!UICONTROL Sync Type]**: (obligatorio) seleccione el tipo de sincronización que desee para este destino. Esto indica el nivel de actividades de usuario que los clientes desearían incluir en los pedidos salientes. Seleccione **[!UICONTROL Customer]** si los clientes solo están interesados en analizar las clasificaciones de segmentos de sus propiedades. Seleccione **[!UICONTROL Platform]** si desea incluir clasificaciones de segmentos de actividades fuera del sitio para todos los clientes de [!DNL Audience Manager].
