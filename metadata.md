@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Audience Manager
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: "Audience Manager"
 usetq: true
 feature-set: Audience Manager
 landing-page-name: audience-manager
@@ -13,11 +14,9 @@ index: false
 hide: true
 source-git-commit: f53f2c6d43589aba9b4296d859db9ad0c0bd1115
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # Metadatos para uso interno
 
