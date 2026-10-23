@@ -8,9 +8,7 @@ source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 27%
-
 ---
-
 
 # Guía de administración de Audience Manager {#admin-guide}
 
