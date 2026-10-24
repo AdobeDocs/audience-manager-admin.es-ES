@@ -8,15 +8,15 @@ exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # Administrar destinos de compañía {#manage-company-destinations}
 
 Cree, edite y elimine destinos de Audience Manager.
