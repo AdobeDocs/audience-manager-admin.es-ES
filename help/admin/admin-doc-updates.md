@@ -8,11 +8,15 @@ exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 TQID: https://experienceleague.adobe.com/QQHJ9VBxkF-pMFYIvgny6JJRS38Q-3nXD1kSzWdGJxQ
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 644

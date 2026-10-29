@@ -8,8 +8,10 @@ exl-id: 45a72422-9e72-46f9-835e-ed0dd88152d2
 TQID: https://experienceleague.adobe.com/gs-xksTasCDyrSHUK4Ue-EhFjxrQkqOJ3nqMHrhVCHw
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 91
