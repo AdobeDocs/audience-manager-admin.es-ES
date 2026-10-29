@@ -8,10 +8,13 @@ exl-id: d213f734-af52-4f43-8733-af67ce6f4e98
 TQID: https://experienceleague.adobe.com/g2OJ54D7UFDMczmV6Knin-wKqg-1cmQXjLzFQBiTPaI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 332

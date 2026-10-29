@@ -8,6 +8,7 @@ exl-id: cd70bc34-7bd3-4e7e-a2c0-af29608e2438
 TQID: https://experienceleague.adobe.com/Gwfldw3ohEhd-KlPLXVEFB5bIWMr8T3DpBF1tyVIb0k
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 148
